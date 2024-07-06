@@ -4,7 +4,7 @@ import './App.css';
 import { onAuthStateChanged } from 'firebase/auth';
 import { ref, onValue, serverTimestamp, set } from 'firebase/database';
 import { ref as storageRef, uploadBytes, getDownloadURL } from 'firebase/storage';
-import { faDownload, faImage } from '@fortawesome/free-solid-svg-icons';
+import { faDownload, faImage } from '@fortawesome/free-solid-svg-icons'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function App() {
