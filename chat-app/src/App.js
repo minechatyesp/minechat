@@ -133,7 +133,7 @@ function App() {
       {user ? (
         <>
           <header>
-            <h1>Chat App</h1>
+            <h1>MineChat</h1>
             <button onClick={signOutUser}>Sign Out</button>
           </header>
           <main>
